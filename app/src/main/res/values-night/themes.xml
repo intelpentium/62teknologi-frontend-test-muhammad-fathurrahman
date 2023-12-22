@@ -1,0 +1,186 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TestAndroidEnamDua" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_base</item>
+        <item name="colorPrimaryVariant">@color/primary_base</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_base</item>
+        <item name="colorSecondaryVariant">@color/secondary_light</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.TestAndroidEnamDua.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    //Heading
+    <style name="Text_H1" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_22sdp</item>
+        <item name="fontFamily">@font/mulish_extrabold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    <style name="Text_H2" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="fontFamily">@font/mulish_extrabold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    <style name="Text_H3" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="fontFamily">@font/mulish_extrabold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    <style name="Text_H4" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="fontFamily">@font/mulish_extrabold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    //Sub Heading
+    <style name="Text_Sub1" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="fontFamily">@font/mulish_semibold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    <style name="Text_Sub2" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="fontFamily">@font/mulish_semibold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    <style name="Text_Sub3" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="fontFamily">@font/mulish_semibold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    <style name="Text_Sub4" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_8sdp</item>
+        <item name="fontFamily">@font/mulish_semibold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    //Body
+    <style name="Text_Body1" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="fontFamily">@font/mulish_regular</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    <style name="Text_Body2" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="fontFamily">@font/mulish_regular</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    <style name="Text_Body3" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="fontFamily">@font/mulish_regular</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    <style name="Text_Body4" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_8sdp</item>
+        <item name="fontFamily">@font/mulish_regular</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="Text_Disc" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_98ssp</item>
+        <item name="fontFamily">@font/mulish_extrabold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    //edit text
+    <style name="EdittextPrimary" parent="android:Widget.EditText">
+        <item name="android:textColorHint">@color/grey_4</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="fontFamily">@font/mulish_regular</item>
+        <item name="android:background">@drawable/bg_form_primary</item>
+        <item name="android:paddingStart">@dimen/_14sdp</item>
+        <item name="android:paddingTop">@dimen/_10sdp</item>
+        <item name="android:paddingEnd">@dimen/_14sdp</item>
+        <item name="android:paddingBottom">@dimen/_10sdp</item>
+    </style>
+
+    //button
+    <style name="ButtonPrimary" parent="android:Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="fontFamily">@font/mulish_extrabold</item>
+        <item name="background">@drawable/bg_btn_primary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="SubButton" parent="android:Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="fontFamily">@font/mulish_regular</item>
+        <item name="background">@drawable/bg_btn_primary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    //tablayout
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/TabTextAppearance</item>
+        <item name="tabIndicatorColor">@color/primary_base</item>
+        <item name="tabSelectedTextColor">@color/primary_base</item>
+    </style>
+
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/grey_dark</item>
+    </style>
+
+    // bottom sheet dialog
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    // bottom sheet style
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+
+    // datepicker
+    <style name="MyDatePicker" parent="android:Widget.Material.Light.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+    </style>
+
+    // timepicker
+    <style name="MyTimePicker" parent="android:Widget.Material.Light.TimePicker">
+        <item name="android:timePickerMode">spinner</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+    </style>
+
+    // radiobutton
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/primary_base</item>
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#42221f1f</item>
+    </style>
+</resources>

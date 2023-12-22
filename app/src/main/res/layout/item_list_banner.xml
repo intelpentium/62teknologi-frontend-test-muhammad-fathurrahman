@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivBanner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/im_dummy"/>
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_gravity="center_vertical"-->
+<!--        android:layout_margin="@dimen/_16sdp">-->
+<!--        <androidx.appcompat.widget.AppCompatTextView-->
+<!--            android:id="@+id/tvName"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="COVID-19 Data"-->
+<!--            style="@style/Text_H3"-->
+<!--            android:textColor="@color/white"/>-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/line"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:background="@drawable/bg_form_primary"-->
+<!--            android:padding="@dimen/_8sdp"-->
+<!--            android:layout_marginTop="@dimen/_12sdp">-->
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Lihat Data"-->
+<!--                style="@style/Text_Sub3"-->
+<!--                android:textColor="@color/primary_base"/>-->
+<!--            <androidx.appcompat.widget.AppCompatImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@drawable/ic_uil_arrow_right"-->
+<!--                android:layout_marginStart="@dimen/_6sdp"-->
+<!--                android:layout_gravity="center_vertical"/>-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+</RelativeLayout>
